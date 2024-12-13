@@ -69,7 +69,7 @@ body{
 .container {
     width: 100%;
     height: auto;
-    padding: 48px 0px;
+    padding: 48px 48px;
     background-color: #080F17;
 
 }
@@ -298,6 +298,7 @@ body{
     gap: 24px;
     /* background-color: aquamarine; */
     margin-top: 24px;
+    padding-left: 48px;
 }
 
 
