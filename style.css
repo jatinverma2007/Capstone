@@ -4,46 +4,47 @@
     box-sizing: border-box;
 }
 body{
-    width: 1440px;
+    /* width: 1440px; */
     background-color: #080F17;
     padding: 0 48px;
 }
 
 .header{
-    width: 1344px;
-    height: 96px;
+    width: 90vw;
+    height: auto;
     background-color:#080F17;
     padding-top: 24px ;
-    padding-left: 48px;
-    gap: 8px;
+    padding-left: 3vw;
+    gap: 1vw;
     display: flex;
     padding: 24px 32px 24px 32px;
     justify-content: center;
-    
+    margin: auto;
 }
 
 .steampunk{
-    width: 1080px;
-    height: 72px;
+    width: 75vw;
+    height: auto;
     background-color:#A2D2600F;
     display: flex;
     border: 1.5px;
     justify-content: space-between;
-    padding: 0 32px;
+    padding: 0 2vw;
     align-items: center;
     border-radius: 16px;
 }
 
 .div1{
-    width: 237px;
-    height: 24px;
+    width: 15vw;
+    height: 30%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .div2{
-    width: 222px;
-    height: 72px;
+    width: 15vw;
+    height: auto;
     font-size: 42px;
     display: flex;
     align-items: center;
@@ -52,7 +53,7 @@ body{
 }
 
 .div3{
-    width: 68px;
+    width: 5vw;
     height: 24px;
     color: #D6DDE6;
     display: flex;
@@ -94,7 +95,7 @@ body{
     font-weight: 700;
     line-height: 120px;
     height: 240px;
-    width: 1344px;
+    width: 90vw;
     font-family:'Plus Jakarta Sans',sans-serif ;
     text-align: center;
     color: #D6DDE6;
@@ -163,8 +164,33 @@ body{
     width: 416px;
     height: 333px;
     gap: 8px;
-    
+
 }
+.project1 img{
+    height: 277px;
+    width: 416px;
+}
+    
+
+.p1{
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #D6DDE6;
+}
+
+.p2{
+    font-family: 'Plus Jakarta Sans',sans-serif ;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #D6DDE69E;
+}
+
+
+
+
 
 .project1 :hover{
     width: 439px;
