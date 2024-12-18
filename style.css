@@ -278,19 +278,31 @@ body{
     border: 1.5px;
     padding: 24px;
     gap: 16px;
-    
+    margin-right: 16px;
     border: 1.5px solid #FFFFFF33;
-
-
-
 }
+
+.A{
+    height: 216px;
+}
+
+
 
 .dibba1{
     width: 240px;
     height: 48px;
     /* background-color: aqua; */
     display: flex;
+    margin-right: 16px;
 
+}
+.dibba2 p{
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #D6DDE6;
+    text-align: left;
 }
 
 .dibba1 img{
@@ -301,7 +313,31 @@ body{
 
 .abc{
     margin-left:10px;
+
 }
+
+.abc :nth-child(1){
+    font-family: 'Plus Jakarta Sans',sans-serif; 
+    font-weight: 700; 
+    font-size: 15px; 
+    line-height: 20px;
+    text-align: left;
+    color: #D6DDE6;                                                                
+}
+
+.abc :nth-child(2){
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D6DDE69E;
+    text-align: left;
+}
+
+
+
+
+
+
 
 .dibba2{
     width: 240px;
@@ -312,6 +348,44 @@ body{
     /* background-color: #FFFFFF0A; */
     margin-top: 12px;
     display: flex;
+    margin-right:16px;
+}
+
+.hello{
+    width: 48px;
+    height: 96px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.hyy{
+    height: 96px; 
+    width: 1px; 
+    background-color: #D6DDE633;
+}
+
+.B{height: 72px;}
+.b{height: 72px;}
+
+
+.C{height: 48px;}
+.c{height: 48px;}
+
+
+.space1{
+    margin-left: 18px;
+}
+
+
+
+.big_line{
+    width: 1344px; 
+    height:2px; 
+    border: 1.5px; 
+    background-color: #FFFFFF33; 
+    text-align: center; 
+    padding-left: 48px;
 }
 
 
@@ -335,4 +409,27 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.long-footer-container :nth-child(1){
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #D6DDE69E;
+}
+
+
+.long-footer-container :nth-child(2){
+    width:162px; 
+    height: 48px; 
+    border: 1.5px solid #D6DDE633;
+    border-radius: 8px;
+    display: flex; 
+    align-items: center;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    color: #D6DDE6;
 }
