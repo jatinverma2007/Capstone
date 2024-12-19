@@ -20,7 +20,9 @@ body{
     padding: 24px 32px 24px 32px;
     justify-content: center;
     margin: auto;
+    
 }
+
 
 .steampunk{
     width: 75vw;
@@ -32,6 +34,12 @@ body{
     padding: 0 2vw;
     align-items: center;
     border-radius: 16px;
+}
+
+.steampunk:hover{
+    transition: all 0.5s ease;
+
+    box-shadow: 10px 10px 10px rgba(255, 252, 155, 0.471);
 }
 
 .div1{
@@ -66,6 +74,23 @@ body{
 
 }
 
+.inner-div:hover{
+    transition: all 1s ease;
+    color:rgb(168, 143, 1);
+    font-size: 22px;
+}
+
+.div2:hover{
+    transition: all 1s ease;
+    color:rgb(168, 143, 1);
+    font-size: 30px;
+}
+
+.div3:hover{
+    transition: all 1s ease;
+    color:rgb(168, 143, 1);
+    font-size: 22px;
+}
 
 .container {
     width: 100%;
@@ -102,6 +127,15 @@ body{
 
 
 }
+.mechanical:hover{
+    transition: all 2s ease;
+    background-color: rgba(249, 252, 99, 0.635);
+    border-radius: 50px;
+}
+.mechanical p:hover{
+    transition: all 2s ease;
+    color: black;
+}
 
 .photo1 img{
     height: 672px;
@@ -131,6 +165,13 @@ body{
     text-align: left;
     color: #D6DDE6;
 
+}
+
+.text1:hover{
+    transition: all 2s ease;
+    background-color: rgba(249, 252, 99, 0.635);
+    border-radius: 10px;
+    color: black;
 }
 
 .photo2 img{
